@@ -7,7 +7,8 @@ function findMin (arr) {
       min = arr[i];
     }
   }
-  console.log ('Min of ', arr, 'is ', min )
+  return min;
 }
 
+console.log ('Min of ', arr, 'is ', min )
 findMin(arr1);
